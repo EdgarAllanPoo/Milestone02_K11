@@ -1,0 +1,122 @@
+footer {
+    position: absolute;
+    width: 1920px;
+    height: 372px;
+    left: 0px;
+    top: 3235px;
+    background: linear-gradient(92.15deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
+    backdrop-filter: blur(30px); /* Note: backdrop-filter has minimal browser support */
+    border-radius: 40px;
+}
+
+.footer_ruang_bersama {
+    position: absolute;
+    width: 666px;
+    height: 120px;
+    left: 73px;
+    top: 3336px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 120px; /* identical to box height */
+    color: #FFFFFF;
+}
+
+.hubungi_kami {
+    position: absolute;
+    width: 218px;
+    height: 45px;
+    left: 960px;
+    top: 3286px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px; /* identical to box height */
+    color: #FFFFFF;
+}
+
+.email {
+    position: absolute;
+    width: 445px;
+    height: 28px;
+    left: 960px;
+    top: 3360px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.no_telp {
+    position: absolute;
+    width: 176px;
+    height: 28px;
+    left: 960px;
+    top: 3422px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.alamat {
+    position: absolute;
+    width: 462px;
+    height: 22px;
+    left: 960px;
+    top: 3489px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.sosmed {
+    position: absolute;
+    width: 193px;
+    height: 45px;
+    left: 1489px;
+    top: 3309px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px; /* identical to box height */
+    color: #FFFFFF;
+}
+
+.instagram {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1489px;
+    top: 3393px;
+    background: url(instagram.png);
+}
+
+.twitter {
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    left: 1601px;
+    top: 3392px;
+    background: url(twitter.png);
+}
+
+.facebook {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    left: 1712px;
+    top: 3393px;
+    background: url(facebook.png);
+}

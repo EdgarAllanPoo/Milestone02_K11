@@ -1,0 +1,295 @@
+/* Section 1 */
+
+.ruang_bersama {
+    position: absolute;
+    width: 772px;
+    height: 144px;
+    left: 131px;
+    top: 312px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 144px;/* identical to box height */
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.desc_1 {
+    position: absolute;
+    width: 750px;
+    height: 210px;
+    left: 131px;
+    top: 483px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.gambar_kanan {
+    position: absolute;
+    width: 827px;
+    height: 563px;
+    left: 1002px;
+    top: 188px;
+    background: url(mimi-thian-vdXMSiX-n6M-unsplash-removebg-preview.png);
+}
+
+/* Section 2 */
+
+.kotak_gambar {
+    position: absolute;
+    width: 364px;
+    height: 411px;
+    left: 189px;
+    top: 963px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(12px); /* Note: backdrop-filter has minimal browser support */
+    border-radius: 20px;
+}
+
+.gambar_kiri {
+    position: absolute;
+    width: 316px;
+    height: 373px;
+    left: 213px;
+    top: 1001px;
+    background: url(AlbusDumbledore-003-removebg-preview.png);
+}
+
+.desc_2 {
+    position: absolute;
+    width: 1041px;
+    height: 187px;
+    left: 759px;
+    top: 1051px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+/* Section 3 */
+
+.judul_1 {
+    position: absolute;
+    width: 893px;
+    height: 38px;
+    left: 536px;
+    top: 1622px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.kotak_1 {
+    position: absolute;
+    width: 364px;
+    height: 498px;
+    left: 84px;
+    top: 1777px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(12px); /* Note: backdrop-filter has minimal browser support */
+    border-radius: 20px;
+}
+
+.gambar_1 {
+    position: absolute;
+    width: 224px;
+    height: 224px;
+    left: 152px;
+    top: 1837px;
+}
+
+.subjudul_1 {
+    position: absolute;
+    width: 193px;
+    height: 54px;
+    left: 172px;
+    top: 2079px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px; /* identical to box height */
+    color: #FFFFFF;
+}
+
+.sub_desc_1 {
+    position: absolute;
+    width: 335px;
+    height: 76px;
+    left: 93px;
+    top: 2156px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.kotak_2 {
+    position: absolute;
+    width: 364px;
+    height: 498px;
+    left: 539px;
+    top: 1777px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(12px); /* Note: backdrop-filter has minimal browser support */
+    border-radius: 20px;
+}
+
+.gambar_2 {
+    position: absolute;
+    width: 253px;
+    height: 250px;
+    left: 597px;
+    top: 1821px;
+}
+
+.subjudul_2 {
+    position: absolute;
+    width: 143px;
+    height: 54px;
+    left: 650px;
+    top: 2079px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px; /* identical to box height */
+    color: #FFFFFF;
+}
+
+.sub_desc_2 {
+    position: absolute;
+    width: 335px;
+    height: 76px;
+    left: 553px;
+    top: 2156px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.kotak_3 {
+    position: absolute;
+    width: 364px;
+    height: 498px;
+    left: 1011px;
+    top: 1777px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(12px); /* Note: backdrop-filter has minimal browser support */
+    border-radius: 20px;
+}
+
+.gambar_3 {
+    position: absolute;
+    width: 229px;
+    height: 229px;
+    left: 1075px;
+    top: 1835px;
+}
+
+.subjudul_3 {
+    position: absolute;
+    width: 186px;
+    height: 54px;
+    left: 1100px;
+    top: 2079px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px; /* identical to box height */
+    color: #FFFFFF;
+}
+
+.sub_desc_3 {
+    position: absolute;
+    width: 335px;
+    height: 76px;
+    left: 1022px;
+    top: 2152px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.kotak_4 {
+    position: absolute;
+    width: 364px;
+    height: 506px;
+    left: 1473px;
+    top: 1769px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(12px); /* Note: backdrop-filter has minimal browser support */
+    border-radius: 20px;
+}
+
+.gambar_4 {
+    position: absolute;
+    width: 234px;
+    height: 234px;
+    left: 1539px;
+    top: 1830px;
+}
+
+.subjudul_4 {
+    position: absolute;
+    width: 233px;
+    height: 54px;
+    left: 1541px;
+    top: 2079px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px; /* identical to box height */
+    color: #FFFFFF;
+}
+
+.sub_desc_4 {
+    position: absolute;
+    width: 335px;
+    height: 76px;
+    left: 1489px;
+    top: 2148px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
