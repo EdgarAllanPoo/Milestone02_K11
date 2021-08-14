@@ -4,8 +4,9 @@
     position: absolute;
     width: 423px;
     height: 418px;
-    left: 1979px;
-    top: 934px;
+    border-radius: 100%;
+    left: 1560px;
+    top: 520px;
     background: linear-gradient(180deg, #C979AA 0%, #80CAE9 100%);
     filter: blur(20px);
     transform: rotate(-180deg);
@@ -13,11 +14,12 @@
 
 .lingkaran_2 {
     position: absolute;
-    width: 554px;
-    height: 547px;
-    left: 474px;
-    top: 1590px;
-    background: linear-gradient(180deg, #C979AA 0%, #FF3651 100%);
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    left: -50px;
+    top: 1020px;
+    background: linear-gradient(180deg, #80CAE9 0%, #C979AA 100%);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     filter: blur(10px);
     transform: rotate(-180deg);
