@@ -1,0 +1,286 @@
+/* Background colour */
+
+.lingkaran_tengah {
+    position: absolute;
+    width: 1504px;
+    height: 1248px;
+    left: 208px;
+    top: 868px;
+    background: #FF6B7F;
+    filter: blur(950px);
+}
+
+.lingkaran_kanan {
+    position: absolute;
+    width: 1036px;
+    height: 966px;
+    left: 1295px;
+    top: 182px;
+    background: #80CAE9;
+    filter: blur(500px);
+}
+
+.lingkaran_kiri {
+    position: absolute;
+    width: 1036px;
+    height: 1252px;
+    left: -550px;
+    top: 1695px;
+    background: #80CAE9;
+    filter: blur(700px);
+}
+
+.lingkaran_atas {
+    position: absolute;
+    width: 1989px;
+    height: 935px;
+    left: 0px;
+    top: -250px;
+    background: #C979AA;
+    filter: blur(700px);
+}
+
+.lingkaran_bawah {
+    position: absolute;
+    width: 1810px;
+    height: 935px;
+    left: 379px;
+    top: 2321px;
+    background: #C979AA;
+    filter: blur(700px);
+}
+
+/* Body */
+
+.judul {
+    position: absolute;
+    width: 1162px;
+    height: 226px;
+    left: 382px;
+    top: 303px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 112px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.box_1 {
+    position: absolute;
+    width: 1498px;
+    height: 496px;
+    left: 212px;
+    top: 740px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.42) 26.93%, rgba(255, 255, 255, 0.06) 126.93%);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+}
+
+.gambar_1 {
+    position: absolute;
+    width: 531px;
+    height: 425px;
+    left: 255px;
+    top: 775px;
+    background: url(.jpg), #C4C4C4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.subjudul_1 {
+    position: absolute;
+    width: 451px;
+    height: 75px;
+    left: 900px;
+    top: 807px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.desc_1 {
+    position: absolute;
+    width: 716px;
+    height: 126px;
+    left: 937px;
+    top: 913px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.selengkapnya_1 {
+    position: absolute;
+    width: 716px;
+    height: 42px;
+    left: 937px;
+    top: 1091px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #8BCAE8;
+}
+
+.box_2 {
+    position: absolute;
+    width: 1498px;
+    height: 496px;
+    left: 214px;
+    top: 1297px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.42) 26.93%, rgba(255, 255, 255, 0.06) 126.93%);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    
+}
+
+.gambar_2 {
+    position: absolute;
+    width: 531px;
+    height: 425px;
+    left: 1136px;
+    top: 1348px;
+    background: url(.jpg), #C4C4C4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.subjudul_2 {
+    position: absolute;
+    width: 401px;
+    height: 75px;
+    left: 277px;
+    top: 1384px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.desc_2 {
+    position: absolute;
+    width: 716px;
+    height: 126px;
+    left: 311px;
+    top: 1490px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.selengkapnya_2 {
+    position: absolute;
+    width: 716px;
+    height: 42px;
+    left: 314px;
+    top: 1674px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #8BCAE8;
+}
+
+.box_3 {
+    position: absolute;
+    width: 1498px;
+    height: 496px;
+    left: 214px;
+    top: 1854px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.42) 26.93%, rgba(255, 255, 255, 0.06) 126.93%);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+}
+
+.gambar_3 {
+    position: absolute;
+    width: 531px;
+    height: 425px;
+    left: 261px;
+    top: 1889px;
+    background: url(.jpg), #C4C4C4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.subjudul_3 {
+    position: absolute;
+    width: 201px;
+    height: 75px;
+    left: 930px;
+    top: 1921px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.desc_3 {
+    position: absolute;
+    width: 716px;
+    height: 84px;
+    left: 943px;
+    top: 2027px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.selengkapnya_3 {
+    position: absolute;
+    width: 716px;
+    height: 42px;
+    left: 943px;
+    top: 2205px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #8BCAE8;
+}
+
+.button {
+    position: absolute;
+    width: 337px;
+    height: 80px;
+    left: 788px;
+    top: 2408px;
+    background: #8BCAE8;
+    border-radius: 40px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
