@@ -134,7 +134,7 @@ body {
     width: 1090px;
     height: 54px;
     left: 154px;
-    top: 556px;
+    top: 576px;
     
     font-family: Roboto;
     font-style: normal;
@@ -152,8 +152,6 @@ body {
     left: 1128px;
     top: 267px;
     
-    background: url(.jpg), #C4C4C4;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
 }
 
@@ -199,26 +197,81 @@ body {
     top: 1152px;
 }
 
-.tombol-video {
+.button {
     position: absolute;
     width: 372px;
     height: 72px;
     left: 774px;
     top: 1610px;
-    
-    background: #8BCAE8;
-    border-radius: 40px;
 
+    background: #8BCAE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+
+.button-text {
+    position: absolute;
+    width: 303px;
+    height: 36px;
+    left: 812px;
+    top: 1628px;
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
+    line-height: 36px;
     color: #FFFFFF;
+    text-decoration: none;
 }
 
-.tombol-video:hover {
-    color: black;
-    box-shadow: 0 0 10px white;
+.button:hover {
+    position: absolute;
+    width: 372px;
+    height: 72px;
+    left: 774px;
+    top: 1610px;
+
+    background: #3d92b9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+
+.button-2 {
+    position: absolute;
+    width: 372px;
+    height: 72px;
+    left: 774px;
+    top: 2600px;
+    background: #8BCAE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+
+.button-text-2 {
+    position: absolute;
+    width: 279px;
+    height: 36px;
+    left: 824px;
+    top: 2618px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.button-2:hover {
+    position: absolute;
+    width: 372px;
+    height: 72px;
+    left: 774px;
+    top: 2600px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    background: #3d92b9;  
 }
 
 /* Bacaan */
