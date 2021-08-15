@@ -1,0 +1,216 @@
+
+body {
+    background-image: url(../image/Konselor_Background.png);
+}
+
+/* body */
+
+.background-square {
+    position: absolute;
+    width: 1540px;
+    height: 689px;
+    left: 187px;
+    top: 246px;
+
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.42) 26.93%, rgba(255, 255, 255, 0.06) 126.93%);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.image {
+    position: absolute;
+    width: 545px;
+    height: 540px;
+    left: 259px;
+    top: 318px;
+    border-radius: 20px; 
+    }
+
+.Heading {
+    position: absolute;
+    width: 521px;
+    height: 72px;
+    left: 897px;
+    top: 290px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.text {
+    position: absolute;
+    width: 700px;
+    height: 314px;
+    left: 898px;
+    top: 390px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: justify;
+
+    color: #FFFFFF;
+    }
+
+.button {
+    position: absolute;
+    width: 355px;
+    height: 80px;
+    left: 898px;
+    top: 760px;
+
+    background: #8BCAE8;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+
+.button-text {
+    position: absolute;
+    width: 275px;
+    height: 40px;
+    left: 943px;
+    top: 780px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/* footer */
+
+.box_footer {
+    position: absolute;
+    width: 1920px;
+    height: 323px;
+    left: 0px;
+    top: 1078px;
+    border: 1px solid #FFFFFF;
+    background: linear-gradient(92.15deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
+    border-radius: 40px 40px 0px 0px;
+}
+
+.footer_ruang_bersama {
+    position: absolute;
+    left: 73px;
+    top: 1179px;
+    z-index: 100;
+    height: 75px;
+}
+
+.hubungi_kami {
+    position: absolute;
+    width: 218px;
+    height: 45px;
+    left: 960px;
+    top: 1129px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px; /* identical to box height */
+    color: #FFFFFF;
+    z-index: 100;
+}
+
+.email {
+    position: absolute;
+    width: 445px;
+    height: 28px;
+    left: 960px;
+    top: 1203px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    z-index: 100;
+}
+
+.no_telp {
+    position: absolute;
+    width: 176px;
+    height: 28px;
+    left: 960px;
+    top: 1265px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    z-index: 100;
+}
+
+.alamat {
+    position: absolute;
+    width: 462px;
+    height: 22px;
+    left: 960px;
+    top: 1332px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    z-index: 100;
+}
+
+.sosmed {
+    position: absolute;
+    width: 193px;
+    height: 45px;
+    left: 1484px;
+    top: 1152px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+    z-index: 100;
+}
+
+.instagram {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1489px;
+    top: 1236px;
+    z-index: 100;
+}
+
+.twitter {
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    left: 1601px;
+    top: 1236px;
+    z-index: 100;
+}
+
+.facebook {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    left: 1712px;
+    top: 1236px;
+    z-index: 100;
+}
