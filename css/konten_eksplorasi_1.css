@@ -15,21 +15,21 @@
 }
 
 .title_workout {
-        position: absolute;
-        width: 680px;
-        height: 113px;
-        left: 623px;
-        top: 303px;
+    position: absolute;
+    width: 680px;
+    height: 113px;
+    left: 623px;
+    top: 303px;
 
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 75px;
-        line-height: 112px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 112px;
 
-        text-align: center;
+    text-align: center;
 
-        color: #FFFFFF;
+    color: #FFFFFF;
     }
 
 .konten_eksplorasi_img {
