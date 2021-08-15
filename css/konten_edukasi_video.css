@@ -1,0 +1,318 @@
+body {
+    background: url("/image/Background/BG_Konten\ Edukasi\ \(Video\).png");
+}
+
+/* Nav */
+.box_header {
+    position: absolute;
+    width: 585px;
+    height: 372px;
+    left: -73px;
+    top: -204px;
+    background: linear-gradient(92.15deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
+    backdrop-filter: blur(30px); /* Note: backdrop-filter has minimal browser support */
+    border-radius: 40px;
+}
+
+.header_ruang_bersama {
+    position: absolute;
+    left: 48px;
+    top: 60px;
+    z-index: 100;
+}
+
+.konsultasi {
+    position: absolute;
+    width: 161px;
+    height: 45px;
+    left: 769px;
+    top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px; /* identical to box height */
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+
+.konsultasi:hover {
+    color: #80CAE9;
+}
+
+.edukasi {
+    position: absolute;
+    width: 119px;
+    height: 45px;
+    left: 1039px;
+    top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px; /* identical to box height */
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+
+.edukasi:hover {
+    color: #80CAE9;
+}
+
+.eksplorasi {
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    left: 1267px;
+    top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px; /* identical to box height */
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+
+.eksplorasi:hover {
+    color: #80CAE9;
+}
+
+.saling_bantu {
+    position: absolute;
+    width: 194px;
+    height: 45px;
+    left: 1507px;
+    top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px; /* identical to box height */
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+
+.saling_bantu:hover {
+    color: #80CAE9;
+}
+
+.profile_picture {
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    left: 1749px;
+    top: 15px;
+    z-index: 100;
+}
+
+/* Video */
+.video-video {
+    position: absolute;
+    width: 1599px;
+    height: 941px;
+    left: 162px;
+    top: 362px;
+    
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.42) 26.93%, rgba(255, 255, 255, 0.06) 126.93%);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(12px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 20px;
+}
+
+.videonya-video {
+    position: absolute;
+    width: 1457px;
+    height: 821px;
+    left: 233px;
+    top: 423px;    
+}
+
+.katalog-video {
+    position: absolute;
+    width: 721px;
+    height: 419px;
+    left: 599px;
+    top: 1717px;
+    
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.42) 26.93%, rgba(255, 255, 255, 0.06) 126.93%);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(12px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 20px;
+}
+
+.video1 {
+    position: absolute;
+    width: 655px;
+    height: 368px;
+    left: 632px;
+    top: 1746px;
+}
+
+.tombol-video {
+    position: absolute;
+    width: 372px;
+    height: 72px;
+    left: 774px;
+    top: 2254px;
+    
+    background: #8BCAE8;
+    border-radius: 40px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.tombol-video:hover {
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+
+/* Footer */
+.box_footer {
+    position: absolute;
+    width: 1920px;
+    height: 321px;
+    left: 0px;
+    top: 2447px;
+    
+    background: linear-gradient(92.15deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
+    backdrop-filter: blur(30px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 40px;
+}
+
+.footer_ruang_bersama {
+    position: absolute;
+    width: 666px;
+    height: 75px;
+    left: 73px;
+    top: 2584.15px;
+    z-index: 100;
+}
+
+.hubungi_kami {
+    position: absolute;
+    width: 218px;
+    height: 38.83px;
+    left: 960px;
+    top: 2491.01px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    
+    color: #FFFFFF;
+    z-index: 100;
+}
+
+.email {
+    position: absolute;
+    width: 445px;
+    height: 24.16px;
+    left: 960px;
+    top: 2554.86px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration-line: underline;
+    
+    color: #FFFFFF;
+    z-index: 100;
+}
+
+.no_telp {
+    position: absolute;
+    width: 176px;
+    height: 24.16px;
+    left: 960px;
+    top: 2608.36px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+    z-index: 100;
+}
+
+.alamat {
+    position: absolute;
+    width: 462px;
+    height: 18.98px;
+    left: 960px;
+    top: 2666.18px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+    z-index: 100;
+}
+
+.sosmed {
+    position: absolute;
+    width: 193px;
+    height: 38.83px;
+    left: 1489px;
+    top: 2510.85px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    
+    color: #FFFFFF;
+    z-index: 100;
+}
+
+.instagram {
+    position: absolute;
+    width: 60px;
+    height: 51.77px;
+    left: 1489px;
+    top: 2583.34px;
+    z-index: 100;
+}
+
+.twitter {
+    position: absolute;
+    width: 59px;
+    height: 50.91px;
+    left: 1601px;
+    top: 2582.48px;
+    z-index: 100;
+}
+
+.facebook {
+    position: absolute;
+    width: 57px;
+    height: 49.19px;
+    left: 1712px;
+    top: 2583.34px;
+    z-index: 100;
+}
