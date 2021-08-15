@@ -1,0 +1,572 @@
+body {
+    background: url("/image/Background/BG_Profile.png");
+}
+
+/* Nav */
+.box_header {
+    position: absolute;
+    width: 585px;
+    height: 372px;
+    left: -73px;
+    top: -204px;
+    background: linear-gradient(92.15deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
+    backdrop-filter: blur(30px); /* Note: backdrop-filter has minimal browser support */
+    border-radius: 40px;
+}
+
+.header_ruang_bersama {
+    position: absolute;
+    left: 48px;
+    top: 60px;
+    z-index: 100;
+}
+
+.konsultasi {
+    position: absolute;
+    width: 161px;
+    height: 45px;
+    left: 769px;
+    top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px; /* identical to box height */
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+
+.konsultasi:hover {
+    color: #80CAE9;
+}
+
+.edukasi {
+    position: absolute;
+    width: 119px;
+    height: 45px;
+    left: 1039px;
+    top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px; /* identical to box height */
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+
+.edukasi:hover {
+    color: #80CAE9;
+}
+
+.eksplorasi {
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    left: 1267px;
+    top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px; /* identical to box height */
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+
+.eksplorasi:hover {
+    color: #80CAE9;
+}
+
+.saling_bantu {
+    position: absolute;
+    width: 194px;
+    height: 45px;
+    left: 1507px;
+    top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px; /* identical to box height */
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+
+.saling_bantu:hover {
+    color: #80CAE9;
+}
+
+.profile_picture {
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    left: 1749px;
+    top: 15px;
+    z-index: 100;
+}
+
+/* Opening */
+.judul-opening {
+    position: absolute;
+    width: 225px;
+    height: 192px;
+    left: 1027px;
+    top: 231px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 96px;
+    
+    color: #FFFFFF;
+    
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.teks-opening {
+    position: absolute;
+    width: 1090px;
+    height: 54px;
+    left: 154px;
+    top: 556px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #FFFFFF;
+}
+
+.foto-opening {
+    position: absolute;
+    width: 341px;
+    height: 341px;
+    left: 571px;
+    top: 215px;
+    
+
+}
+
+.button {
+    position: absolute;
+    width: 321px;
+    height: 64px;
+    left: 1027px;
+    top: 478px;
+    
+    background: #8BCAE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.textbox_jadwal {
+    position: absolute;
+    width: 345px;
+    height: 259px;
+    left: 179px;
+    top: 794px;
+    
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.42) 26.93%, rgba(255, 255, 255, 0.06) 126.93%);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(12px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 20px;
+}
+
+.juduljadwal {
+    position: absolute;
+    width: 455px;
+    height: 72px;
+    left: 148px;
+    top: 679px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+}
+
+.iconjadwal_img {
+    position: absolute;
+    width: 30px;
+    height: 121px;
+    left: 207px;
+    top: 896px;
+    
+}
+
+.namajadwal{
+position: absolute;
+width: 236px;
+height: 56px;
+left: 207px;
+top: 819px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+}
+
+.datejadwal {
+    position: absolute;
+width: 136px;
+height: 21px;
+left: 253px;
+top: 898px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.jamjadwal{
+    position: absolute;
+width: 141px;
+height: 21px;
+left: 253px;
+top: 944px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.linkjadwal{
+    position: absolute;
+width: 202px;
+height: 21px;
+left: 253px;
+top: 990px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+
+.textbox_support {
+    position: absolute;
+    width: 826px;
+    height: 114px;
+    left: 915px;
+    top: 797px;
+    
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.42) 26.93%, rgba(255, 255, 255, 0.06) 126.93%);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(12px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 20px;
+}
+
+.judulsupport {
+    position: absolute;
+    width: 826px;
+    height: 72px;
+    left: 915px;
+    top: 679px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+}
+
+.text_support {
+    position: absolute;
+    width: 753px;
+    height: 28px;
+    left: 943px;
+    top: 822px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+}
+
+.textbox_teman {
+    position: absolute;
+    width: 262px;
+    height: 331px;
+    left: 179px;
+    top: 1217px;
+    
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.42) 26.93%, rgba(255, 255, 255, 0.06) 126.93%);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(12px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 20px;
+}
+
+.judulteman {
+    position: absolute;
+    width: 333px;
+    height: 72px;
+    left: 148px;
+    top: 1117px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+}
+
+.teman_profil_img {
+    position: absolute;
+    width: 219px;
+    height: 173px;
+    left: 201px;
+    top: 1239px;
+    
+    background: url(.jpg), #C4C4C4;
+    border-radius: 20px;
+}
+
+.iconteman_img{
+    position: absolute;
+width: 61px;
+height: 21.88px;
+left: 198px;
+top: 1500px;
+}
+
+.namateman{
+    position: absolute;
+width: 49px;
+height: 21px;
+left: 202px;
+top: 1424px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.bioteman{
+    position: absolute;
+width: 173px;
+height: 21px;
+left: 201px;
+top: 1450px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+/* Footer */
+.box_footer {
+    position: absolute;
+    width: 1920px;
+    height: 333px;
+    left: 0px;
+    top: 2887px;
+    
+    background: linear-gradient(92.15deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
+    backdrop-filter: blur(30px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 40px;
+}
+
+.footer_ruang_bersama {
+    position: absolute;
+    width: 666px;
+    height: 75px;
+    left: 73px;
+    top: 3038px;    
+}
+
+.hubungi_kami {
+    position: absolute;
+    width: 218px;
+    height: 45px;
+    left: 960px;
+    top: 2938px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    z-index: 100;
+}
+
+.email {
+    position: absolute;
+    width: 445px;
+    height: 28px;
+    left: 960px;
+    top: 3012px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration-line: underline;
+    
+    color: #FFFFFF;
+    z-index: 100;
+}
+
+.no_telp {
+    position: absolute;
+    width: 176px;
+    height: 28px;
+    left: 960px;
+    top: 3074px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+    z-index: 100;
+}
+
+.alamat {
+    position: absolute;
+    width: 462px;
+    height: 22px;
+    left: 960px;
+    top: 3141px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+    z-index: 100;
+}
+
+.sosmed {
+    position: absolute;
+    width: 193px;
+    height: 45px;
+    left: 1489px;
+    top: 2961px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    z-index: 100;
+}
+
+.instagram {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1489px;
+    top: 3045px;
+    z-index: 100;
+}
+
+.twitter {
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    left: 1601px;
+    top: 3044px;
+    
+    z-index: 100;
+}
+
+.facebook {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    left: 1712px;
+    top: 3045px;
+    z-index: 100;
+}
