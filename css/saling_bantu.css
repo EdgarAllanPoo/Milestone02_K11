@@ -1,0 +1,684 @@
+body {
+    background: url("/image/Background/BG_Saling_Bantu.png");
+}
+
+/* Nav */
+.box_header {
+    position: absolute;
+    width: 585px;
+    height: 372px;
+    left: -73px;
+    top: -204px;
+    background: linear-gradient(92.15deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
+    backdrop-filter: blur(30px); /* Note: backdrop-filter has minimal browser support */
+    border-radius: 40px;
+}
+
+.header_ruang_bersama {
+    position: absolute;
+    left: 48px;
+    top: 60px;
+    z-index: 100;
+}
+
+.konsultasi {
+    position: absolute;
+    width: 161px;
+    height: 45px;
+    left: 769px;
+    top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px; /* identical to box height */
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+
+.konsultasi:hover {
+    color: #80CAE9;
+}
+
+.edukasi {
+    position: absolute;
+    width: 119px;
+    height: 45px;
+    left: 1039px;
+    top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px; /* identical to box height */
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+
+.edukasi:hover {
+    color: #80CAE9;
+}
+
+.eksplorasi {
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    left: 1267px;
+    top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px; /* identical to box height */
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+
+.eksplorasi:hover {
+    color: #80CAE9;
+}
+
+.saling_bantu {
+    position: absolute;
+    width: 194px;
+    height: 45px;
+    left: 1507px;
+    top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px; /* identical to box height */
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+
+.saling_bantu:hover {
+    color: #80CAE9;
+}
+
+.profile_picture {
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    left: 1749px;
+    top: 15px;
+    z-index: 100;
+}
+
+/* Opening */
+.judul-opening {
+    position: absolute;
+    width: 1242px;
+    height: 113px;
+    left: 376px;
+    top: 275px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 112px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+}
+
+.judul-under{
+    
+position: absolute;
+width: 498px;
+height: 54px;
+left: 168px;
+top: 631px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 54px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.teks-opening {
+    position: absolute;
+    width: 1090px;
+    height: 54px;
+    left: 154px;
+    top: 556px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #FFFFFF;
+}
+
+
+
+
+.textbox_teman1 {
+    position: absolute;
+    width: 408px;
+    height: 513px;
+    left: 310px;
+    top: 764px;
+    
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.42) 26.93%, rgba(255, 255, 255, 0.06) 126.93%);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(12px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 20px;
+}
+
+
+.teman1_profil_img {
+    position: absolute;
+    width: 362px;
+    height: 314px;
+    left: 332px;
+    top: 786px;
+    
+    background: url(.jpg), #C4C4C4;
+    border-radius: 20px;
+}
+
+.iconteman1_img{
+    position: absolute;
+    width: 85px;
+    height: 35px;
+    left: 333px;
+    top: 1221px;
+}
+
+.namateman1{
+    position: absolute;
+    width: 81px;
+    height: 35px;
+    left: 332px;
+    top: 1121px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    
+    color: #FFFFFF;
+}
+
+.bioteman1{
+    position: absolute;
+    width: 231px;
+    height: 28px;
+    left: 331px;
+    top: 1168px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+    
+}
+
+.textbox_teman2 {
+    position: absolute;
+    width: 408px;
+    height: 513px;
+    left: 794px;
+    top: 764px;
+    
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.42) 26.93%, rgba(255, 255, 255, 0.06) 126.93%);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(12px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 20px;
+}
+
+
+.teman2_profil_img {
+    position: absolute;
+    width: 362px;
+    height: 314px;
+    left: 815px;
+    top: 786px;
+    
+    background: url(.jpg), #C4C4C4;
+    border-radius: 20px;
+}
+
+.iconteman2_img{
+    position: absolute;
+    width: 85px;
+    height: 35px;
+    left: 815px;
+    top: 1221px;
+    
+}
+
+.namateman2{
+    position: absolute;
+    width: 88px;
+    height: 35px;
+    left: 815px;
+    top: 1121px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    
+    color: #FFFFFF;
+}
+
+.bioteman2{
+    position: absolute;
+    width: 235px;
+    height: 28px;
+    left: 814px;
+    top: 1168px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+}
+
+.textbox_teman3 {
+    position: absolute;
+    width: 408px;
+    height: 513px;
+    left: 1276px;
+    top: 764px;
+    
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.42) 26.93%, rgba(255, 255, 255, 0.06) 126.93%);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(12px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 20px;
+}
+
+
+.teman3_profil_img {
+    position: absolute;
+    width: 362px;
+    height: 314px;
+    left: 1298px;
+    top: 786px;
+    
+    background: url(.jpg), #C4C4C4;
+    border-radius: 20px;
+}
+
+.iconteman3_img{
+    position: absolute;
+    width: 85px;
+    height: 35px;
+    left: 1301px;
+    top: 1222px;
+}
+
+.namateman3{
+
+    position: absolute;
+    width: 176px;
+    height: 35px;
+    left: 1298px;
+    top: 1121px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    
+    color: #FFFFFF;
+}
+
+.bioteman3{
+
+    position: absolute;
+    width: 227px;
+    height: 28px;
+    left: 1297px;
+    top: 1168px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+    
+}
+
+.button_more {
+    position: absolute;
+    width: 303px;
+    height: 50px;
+    left: 835px;
+    top: 1364px;
+    
+    background: #A3C2DE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.judulks{
+    position: absolute;
+    width: 1680px;
+    height: 125px;
+    left: 120px;
+    top: 1512px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 112px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.textbox_ks{
+    position: absolute;
+    width: 690px;
+    height: 570px;
+    left: 222px;
+    top: 1676px;
+    
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.42) 26.93%, rgba(255, 255, 255, 0.06) 126.93%);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(12px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 20px;
+}
+
+.ks_img{
+    position: absolute;
+    width: 593px;
+    height: 545px;
+    left: 1114px;
+    top: 1676px;
+    
+    background: url(.jpg), #C4C4C4;
+    border-radius: 30px;
+}
+
+.dari_txt{
+    position: absolute;
+    width: 44px;
+    height: 28px;
+    left: 259px;
+    top: 1727px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;   
+}
+
+.dari_inputbox{
+    position: absolute;
+    width: 487px;
+    height: 64px;
+    left: 391px;
+    top: 1709px;
+    
+    background: #F0F0F0;
+    border-radius: 30px;
+}
+
+.untuk_txt{
+    position: absolute;
+    width: 64px;
+    height: 28px;
+    left: 259px;
+    top: 1827px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+}
+
+.untuk_inputbox{
+    position: absolute;
+    width: 487px;
+    height: 64px;
+    left: 391px;
+    top: 1809px;
+    
+    background: #F0F0F0;
+    border-radius: 30px;
+}
+
+.pesan_txt{
+    position: absolute;
+    width: 67px;
+    height: 28px;
+    left: 259px;
+    top: 1927px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+    
+}
+
+.pesan_inputbox{
+    position: absolute;
+    width: 487px;
+    height: 187px;
+    left: 391px;
+    top: 1909px;
+    
+    background: #F0F0F0;
+    border-radius: 30px;
+}
+
+.button_kirim{
+    position: absolute;
+    width: 221px;
+    height: 80px;
+    left: 390px;
+    top: 2130px;
+    
+    background: #8BCAE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+/* Footer */
+.box_footer {
+    position: absolute;
+    width: 1920px;
+    height: 333px;
+    left: 0px;
+    top: 2887px;
+    
+    background: linear-gradient(92.15deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
+    backdrop-filter: blur(30px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 40px;
+}
+
+.footer_ruang_bersama {
+    position: absolute;
+    width: 666px;
+    height: 75px;
+    left: 73px;
+    top: 3038px;    
+}
+
+.hubungi_kami {
+    position: absolute;
+    width: 218px;
+    height: 45px;
+    left: 960px;
+    top: 2938px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    z-index: 100;
+}
+
+.email {
+    position: absolute;
+    width: 445px;
+    height: 28px;
+    left: 960px;
+    top: 3012px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration-line: underline;
+    
+    color: #FFFFFF;
+    z-index: 100;
+}
+
+.no_telp {
+    position: absolute;
+    width: 176px;
+    height: 28px;
+    left: 960px;
+    top: 3074px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+    z-index: 100;
+}
+
+.alamat {
+    position: absolute;
+    width: 462px;
+    height: 22px;
+    left: 960px;
+    top: 3141px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+    z-index: 100;
+}
+
+.sosmed {
+    position: absolute;
+    width: 193px;
+    height: 45px;
+    left: 1489px;
+    top: 2961px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    z-index: 100;
+}
+
+.instagram {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1489px;
+    top: 3045px;
+    z-index: 100;
+}
+
+.twitter {
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    left: 1601px;
+    top: 3044px;
+    
+    z-index: 100;
+}
+
+.facebook {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    left: 1712px;
+    top: 3045px;
+    z-index: 100;
+}
