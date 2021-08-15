@@ -1,0 +1,48 @@
+
+.title_meditasi {
+        position: absolute;
+        width: 601px;
+        height: 113px;
+        left: 660px;
+        top: 279px;
+
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 75px;
+        line-height: 112px;
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+.konten_eksplorasi_img {
+    position: absolute;
+    width: 1226px;
+    height: 664px;
+    left: 348px;
+    top: 445px;
+    
+    background: url(.jpg), #C4C4C4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.text_meditasi {
+    position: absolute;
+    width: 1290px;
+    height: 547px;
+    left: 331px;
+    top: 1187px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: justify;
+    
+
+    color: #FFFFFF;
+}
