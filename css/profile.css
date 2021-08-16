@@ -1,5 +1,6 @@
 body {
     background-image: url("/image/Background/BG_Profile.png");
+    background-repeat: no-repeat;
 }
 /* Opening */
 .judul-opening {
