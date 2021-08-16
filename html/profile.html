@@ -18,9 +18,18 @@
         <a class="edukasi" href="edukasi.html">Edukasi</a>
         <a class="eksplorasi" href="eksplorasi.html">Eksplorasi</a>
         <a class="saling_bantu" href="saling_bantu.html">Saling Bantu</a>
-                <a href="login.html">
-                    <img class="profile_picture" src="../image/profile.png"></img>
-                </a>
+        <button data-modal-target="#modal"><img class="profile_picture" src="../image/profile.png"><img></button>
+        <div class="modal" id="modal">
+            <div class="modal-header">
+                <button data-close-button class="close-button">&times;</button>
+            </div>
+            <div class="modal-body">
+                <a class="button-modal-1" href="/html/login_register.html">Log in</a>
+                <a class="button-modal" href="/html/login_register.html">Register</a>
+                <a class="button-modal" href="/html/profile.html">Profile</a>
+            </div>
+        </div>
+        <div id="overlay"></div>
     </section>   
 
     <section id="opening">
@@ -72,6 +81,6 @@
         <img class="twitter" src="../image/Twitter.png" style="top:1815px;"></img>
         <img class="facebook" src="../image/Facebook.png" style="top:1815px;"></img>
     </section>
-
+    <script src="/js/profile.js"></script>
 </body>
 </html>
