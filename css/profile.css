@@ -1,5 +1,6 @@
 body {
     background-image: url("/image/Background/BG_Profile.png");
+    background-repeat: no-repeat;
 }
 /* Opening */
 .judul-opening {
@@ -218,7 +219,7 @@ body {
 
 .judulsupport {
     position: absolute;
-    width: 8406px;
+    width: 840px;
     height: 72px;
     left: 915px;
     top: 650px;
