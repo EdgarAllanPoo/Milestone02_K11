@@ -38,9 +38,6 @@
     height: 664px;
     left: 348px;
     top: 500px;
-    
-    background: url(.jpg), #C4C4C4;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
 }
 
@@ -70,11 +67,34 @@
     top: 1954px;
     
     background: #8BCAE8;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
     border-radius: 40px;
+}
+
+.button:hover {
+    position: absolute;
+    width: 337px;
+    height: 80px;
+    left: 792px;
+    top: 1954px;
+    
+    background: #3d92b9;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+
+.button-text {
+    position: absolute;
+    width: 258px;
+    height: 40px;
+    left: 837px;
+    top: 1974px;
+
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
+    text-decoration: none;
     color: #FFFFFF;
 }
