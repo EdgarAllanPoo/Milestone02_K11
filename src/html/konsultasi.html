@@ -20,14 +20,23 @@
             <a class="edukasi" href="edukasi.html">Edukasi</a>
             <a class="eksplorasi" href="eksplorasi.html">Eksplorasi</a>
             <a class="saling_bantu" href="saling_bantu.html">Saling Bantu</a>
-            <a href="login.html">
-                <img class="profile_picture" src="../image/profile.png"><img>
-            </a>
+            <button data-modal-target="#modal"><img class="profile_picture" src="../image/profile.png"><img></button>
+            <div class="modal" id="modal">
+                <div class="modal-header">
+                    <button data-close-button class="close-button">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <a class="button-modal-1" href="../html/login_register.html">Log in</a>
+                    <a class="button-modal" href="../html/login_register.html">Register</a>
+                    <a class="button-modal" href="../html/profile.html">Profile</a>
+                </div>
+            </div>
+            <div id="overlay"></div>
         </section>
 
         <section id="above">
             <div class="above-image">
-                <img src="../image/drop.jfif">
+                <img src="../image/konsulatas.png">
             </div>
             <div class="above-info">
                 <h2 class="info">Yuk berbagi <br><br>cerita 
@@ -58,11 +67,7 @@
             <div class="middle-image-3">
                 <img src="../image/temansb3.png">
             </div>
-            <div class="middle-text-3">
-                <h3>Agnes Monikah, S.Psi</h3>
-                <p class="text-3">Konsultan Mental Health di Rumah Sakit Boromeus</p>
-            </div>
-            
+
         </section>
 
         <section id="under">
@@ -70,10 +75,10 @@
                 <p>Kapan nih mau konsultasi dengan para ahli ?</p>
             </div>
             <div class="under-image-1">
-                <img src="../image/drop1.jfif">
+                <img src="../image/konsulbawah1.png">
             </div>
             <div class="under-image-2">
-                <img src="../image/drop2.jfif">
+                <img src="../image/konsulbawah2.png">
             </div>
         </section>
 
@@ -113,5 +118,6 @@
             <img class="facebook" src="../image/Facebook.png" style="top: 3393px;"></img>
         </section>
     </main>
+    <script src="../js/profile.js"></script>
 </body>
 </html>
